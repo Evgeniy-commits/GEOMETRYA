@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 void main()
@@ -17,7 +17,7 @@ void main()
 
 #ifdef SQUARD
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû êâàäðàòà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð°: "; cin >> a;
 
 	for (int i = 0; i < a; i++)
 	{
@@ -32,7 +32,7 @@ void main()
 
 #ifdef TRIANGLE
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû òðåóãîëíèêà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»Ð½Ð¸ÐºÐ°: "; cin >> a;
 
 	for (int i = 0; i < a; i++)
 	{
@@ -48,7 +48,7 @@ void main()
 
 #ifdef TRIANGLEA
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû òðåóãîëíèêà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»Ð½Ð¸ÐºÐ°: "; cin >> a;
 
 	for (int i = 1; i <= a; i++)
 	{
@@ -64,7 +64,7 @@ void main()
 
 #ifdef TRIANGLEB
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû òðåóãîëíèêà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»Ð½Ð¸ÐºÐ°: "; cin >> a;
 
 	for (int i = 1; i <= a; i++)
 	{
@@ -80,7 +80,7 @@ void main()
 
 #ifdef TRIANGLEC
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû òðåóãîëíèêà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»Ð½Ð¸ÐºÐ°: "; cin >> a;
 
 	for (int i = 1; i <= a; i++)
 	{
@@ -100,7 +100,7 @@ void main()
 
 #ifdef TRIANGLED
 	int a;
-	cout << "Ââåäèòå äëèíó ñòîðîíû òðåóãîëíèêà: "; cin >> a;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð´Ð»Ð¸Ð½Ñƒ ÑÑ‚Ð¾Ñ€Ð¾Ð½Ñ‹ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»Ð½Ð¸ÐºÐ°: "; cin >> a;
 
 	for (int i = 1; i <= a; i++)
 	{
@@ -119,8 +119,8 @@ void main()
 #endif // TRIANGLED
 
 #ifdef PERFECT_NUMBER_EYLER
-	/*Ñîâåðøåííûå ÷èñëà ìîæíî íàéòè ïî ôîðìóëå Ýéëåðà : perfect_number = 2 ^ p - 1 * (2 ^ p - 1),
-	ãäå ð - ïðîñòîå ÷èñëî, à âòîðîé ìíîæèòåëü íàçûâàåòñÿ ÷èñëîì Ìåðñåííà */
+	/*Ð¡Ð¾Ð²ÐµÑ€ÑˆÐµÐ½Ð½Ñ‹Ðµ Ñ‡Ð¸ÑÐ»Ð° Ð¼Ð¾Ð¶Ð½Ð¾ Ð½Ð°Ð¹Ñ‚Ð¸ Ð¿Ð¾ Ñ„Ð¾Ñ€Ð¼ÑƒÐ»Ðµ Ð­Ð¹Ð»ÐµÑ€Ð° : perfect_number = 2 ^ p - 1 * (2 ^ p - 1),
+	Ð³Ð´Ðµ Ñ€ - Ð¿Ñ€Ð¾ÑÑ‚Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð° Ð²Ñ‚Ð¾Ñ€Ð¾Ð¹ Ð¼Ð½Ð¾Ð¶Ð¸Ñ‚ÐµÐ»ÑŒ Ð½Ð°Ð·Ñ‹Ð²Ð°ÐµÑ‚ÑÑ Ñ‡Ð¸ÑÐ»Ð¾Ð¼ ÐœÐµÑ€ÑÐµÐ½Ð½Ð° */
 	int number, simple_number, i, j, k;
 	unsigned long long perfectNumber, firstMultiplier = 1, numberOfMersenn;
 	bool isSimple, isCheckNumberSimple;
